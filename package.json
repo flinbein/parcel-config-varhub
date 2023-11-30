@@ -1,11 +1,11 @@
 {
   "name": "@flinbein/parcel-config-varhub",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./config.json5",
   "types": "./types.d.ts",
   "author": "dpohvar@gmail.com",
   "dependencies": {
-    "@flinbein/parcel-resolver-varhub-source-dir": "git+https://github.com/flinbein/parcel-resolver-varhub-source-dir.git#1.0.1"
+    "@flinbein/parcel-resolver-varhub-source-dir": "git+https://github.com/flinbein/parcel-resolver-varhub-source-dir.git#1.0.2"
   },
   "devDependencies": {
     "@flinbein/varhub-ws-client": "git+https://github.com/flinbein/varhub-ws-client.git#1.0.13"
