@@ -2,9 +2,7 @@
   "extends": "@parcel/config-default",
   "resolvers": ["@flinbein/parcel-resolver-varhub-source-dir", "..."],
   "transformers": {
-    "varhub-source:*.{json,js}": ["@flinbein/parcel-transformer-varhub-source-text", "..."],
-    "varhub-source:*.{ts,js}": ["@parcel/transformer-typescript-tsc", "..."],
-    "varhub-source:*": ["@flinbein/parcel-transformer-varhub-source-text", "..."],
-    "varhub-modules:*": ["..."]
+    "varhub-modules:*": ["..."],
+    "varhub-modules-integrity:*": ["..."]
   }
 }
