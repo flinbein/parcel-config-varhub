@@ -1,5 +1,5 @@
 declare module "varhub-modules:*" {
-	import {ModuleDescription} from "varhub-ws-client";
+	import {ModuleDescription} from "@flinbein/varhub-ws-client";
 	export const modules: Record<string, ModuleDescription>;
 	export const integrity: string;
 }
