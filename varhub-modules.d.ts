@@ -1,7 +1,6 @@
 declare module "varhub-modules:*" {
-	import {ModuleDescription} from "@flinbein/varhub-ws-client";
-	export const modules: Record<string, ModuleDescription>;
-	export const integrity: string;
+	export const roomModule: { main: string, source: Record<string, string>};
+	export const roomIntegrity: string;
 }
 
 declare module "varhub-modules-integrity:*" {
